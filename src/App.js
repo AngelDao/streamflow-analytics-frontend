@@ -154,8 +154,9 @@ function App() {
                           </a>
                         </td>
                         <td>{value.amount_of_streams}</td>
-                        <td>{value.price}</td>
+                        <td>${value.price}</td>
                         <td>
+                          $
                           {parseInt(
                             (value.amount_sent / Math.pow(10, value.decimals)) *
                               value.price
